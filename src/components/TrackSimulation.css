@@ -1,0 +1,105 @@
+.track-simulation-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.stats-table {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.track-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playback-controls {
+  margin-top: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: #141414;
+  color: #FFFFFF;
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.track-simulation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1c1c1e;
+}
+
+canvas {
+  border: 2px solid #e10600;
+  border-radius: 10px;
+}
+
+.control-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #1c1c1e;
+  border: 1px solid #e10600;
+  border-radius: 10px;
+}
+
+.control-panel button {
+  background-color: #e10600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.control-panel button:hover {
+  background-color: #ffffff;
+  color: #e10600;
+}
+
+.control-panel input[type="range"] {
+  width: 100%;
+  margin: 5px 0;
+}
+
+h2 {
+  color: #e10600;
+  font-weight: bold;
+  text-align: center;
+}
+
+.stats-table {
+  background-color: #1c1c1e;
+  color: #fff;
+  border: 1px solid #e10600;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.stats-table table {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.stats-table th,
+.stats-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #2c2c2e;
+}
+
+.stats-table th {
+  background-color: #e10600;
+}
